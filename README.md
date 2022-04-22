@@ -21,11 +21,11 @@ In Game changes:
 
   -Added 3 Projects to the game and to the requirements for cultural victory (in addition to the tourist requirement):
   
-    ~Fight For Form: Upon completion grants the following effects: +3 Appeal in all cities; Double points towards Great Writers, Great Artists, and Great Musicians.  Unlocked by the Cultural Hegemony civic in the future era.
+    ~"Fight For Form": Upon completion grants the following effects: +3 Appeal in all cities; Double points towards Great Writers, Great Artists, and Great Musicians.  Unlocked by the Cultural Hegemony civic in the future era.
     
-    ~Give Peace A Chance: Upon completion grants the following effects: +1 Movement to all units; All units ignore zones of control; Rock bands are half price. Unlocked by the Smart Power Doctrine civic in the future era.
+    ~"Give Peace A Chance": Upon completion grants the following effects: +1 Movement to all units; All units ignore zones of control; Rock bands are half price. Unlocked by the Smart Power Doctrine civic in the future era.
     
-    ~Knowledge Is Power: Upon completion grants the following effects: +5 Power in all cities; Archaeologists are half price to purchase; Triple tourism from artifacts.  Unlocked by the Information Warfare civic in the future era
+    ~"Knowledge Is Power": Upon completion grants the following effects: +5 Power in all cities; Archaeologists are half price to purchase; Triple tourism from artifacts.  Unlocked by the Information Warfare civic in the future era
     
     ~All of these require a theater disctrict.
     
