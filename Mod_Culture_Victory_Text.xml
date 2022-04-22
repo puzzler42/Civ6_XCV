@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<EnglishText>
+		<Row Tag="LOC_XCV_CULTURE_VICTORY_PROJECT1_NAME">
+			<Text>Fight For Form</Text>
+		</Row>
+		<Row Tag="LOC_XCV_CULTURE_VICTORY_PROJECT1_SHORTNAME">
+			<Text>Fight For Form</Text>
+		</Row>
+		<Row Tag="LOC_XCV_CULTURE_VICTORY_PROJECT1_DESC">
+			<Text>Project required for expanded culture victory. #1 of 3. Upon completion also grants the following effects:[NEWLINE][ICON_Bullet]+3 Appeal in all cities.[NEWLINE][ICON_Bullet]Double points towards [ICON_GreatWriter] Great Writers, [ICON_GreatArtist] Great Artists, and [ICON_GreatMusician] Great Musicians.</Text>
+		</Row>
+		<Row Tag="LOC_XCV_CULTURE_VICTORY_PROJECT_POPUP">
+			<Text>You've completed a project required for expanded culture victory.</Text>
+		</Row>
+		<Row Tag="LOC_XCV_CULTURE_VICTORY_PROJECT_POPUP_TITLE">
+			<Text>Project Completed</Text>
+		</Row>
+		<Row Tag="LOC_XCV_CULTURE_VICTORY_PROJECT2_NAME">
+			<Text>Give Peace A Chance</Text>
+		</Row>
+		<Row Tag="LOC_XCV_CULTURE_VICTORY_PROJECT2_SHORTNAME">
+			<Text>Give Peace A Chance</Text>
+		</Row>
+		<Row Tag="LOC_XCV_CULTURE_VICTORY_PROJECT2_DESC">
+			<Text>Project required for expanded culture victory. #2 of 3. Upon completion also grants the following effects:[NEWLINE][ICON_Bullet]+1 Movement to all units.[NEWLINE][ICON_Bullet]All units ignore zones of control.[NEWLINE][ICON_Bullet]Rock bands are half price.</Text>
+		</Row>
+		<Row Tag="LOC_XCV_CULTURE_VICTORY_PROJECT3_NAME">
+			<Text>Knowledge Is Power</Text>
+		</Row>
+		<Row Tag="LOC_XCV_CULTURE_VICTORY_PROJECT3_SHORTNAME">
+			<Text>Knowledge Is Power</Text>
+		</Row>
+		<Row Tag="LOC_XCV_CULTURE_VICTORY_PROJECT3_DESC">
+			<Text>Project required for expanded culture victory. #3 of 3. Upon completion also grants the following effects:[NEWLINE][ICON_Bullet]+5 [ICON_Power] Power in all cities.[NEWLINE][ICON_Bullet]Archaeologists are half price to purchase.[NEWLINE][ICON_Bullet]Triple [ICON_Tourism] tourism from [ICON_GreatWork_Artifact] artifacts.</Text>
+		</Row>
+		<Row Tag="LOC_WORLD_RANKINGS_CULTURE_VICTORY_DETAILS_XCV">
+			<Text>To achieve a [COLOR:ResCultureLabelCS]CULTURE[ENDCOLOR] victory, you must become [COLOR:ResCultureLabelCS]CULTURALLY DOMINANT[ENDCOLOR] over all other civilizations. Cultural dominance occurs when you attract more [COLOR:ResCultureLabelCS]VISITING TOURISTS[ENDCOLOR] to your civilization than the other civilization has [COLOR:ResCultureLabelCS]DOMESTIC TOURISTS[ENDCOLOR] at home.[NEWLINE][NEWLINE]Generating high amounts of [ICON_Culture] Culture and [ICON_Tourism] Tourism increases both your domestic tourists and visiting tourists from other civilizations. You must also complete 3 theater square projects unlocked by future era civics.</Text>
+		</Row>
+		<Row Tag="LOC_MOMENT_XCV_PROJECT1_DONE">
+			<Text>Fight For Form completed</Text>
+		</Row>
+		<Row Tag="LOC_MOMENT_XCV_PROJECT1_DONE_DESCRIPTION">
+			<Text>Fight For Form completed.</Text>
+		</Row>
+		<Row Tag="LOC_MOMENT_XCV_PROJECT1_DONE_INSTANCE_DESCRIPTION">
+			<Text>You've completed Fight For Form, a project required for expanded culture victory. #1 of 3.</Text>
+		</Row>
+		<Row Tag="LOC_MOMENT_XCV_PROJECT2_DONE">
+			<Text>Give Peace A Chance completed</Text>
+		</Row>
+		<Row Tag="LOC_MOMENT_XCV_PROJECT2_DONE_DESCRIPTION">
+			<Text>Give Peace A Chance completed.</Text>
+		</Row>
+		<Row Tag="LOC_MOMENT_XCV_PROJECT2_DONE_INSTANCE_DESCRIPTION">
+			<Text>You've completed Give Peace A Chance, a project required for expanded culture victory. #2 of 3.</Text>
+		</Row>
+		<Row Tag="LOC_MOMENT_XCV_PROJECT3_DONE">
+			<Text>Knowledge Is Power completed</Text>
+		</Row>
+		<Row Tag="LOC_MOMENT_XCV_PROJECT3_DONE_DESCRIPTION">
+			<Text>Knowledge Is Power completed.</Text>
+		</Row>
+		<Row Tag="LOC_MOMENT_XCV_PROJECT3_DONE_INSTANCE_DESCRIPTION">
+			<Text>You've completed Knowledge Is Power, a project required for expanded culture victory. #3 of 3.</Text>
+		</Row>
+		<Row Tag="LOC_MOMENT_XCV_PROJECT1_DONE_FIRST_IN_WORLD">
+			<Text>Fight For Form completed first</Text>
+		</Row>
+		<Row Tag="LOC_MOMENT_XCV_PROJECT1_DONE_FIRST_IN_WORLD_DESCRIPTION">
+			<Text>Fight For Form completed first in world.</Text>
+		</Row>
+		<Row Tag="LOC_MOMENT_XCV_PROJECT1_DONE_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+			<Text>You've completed Fight For Form, a project required for expanded culture victory. No one else has managed this. #1 of 3.</Text>
+		</Row>
+		<Row Tag="LOC_MOMENT_XCV_PROJECT2_DONE_FIRST_IN_WORLD">
+			<Text>Give Peace A Chance completed first</Text>
+		</Row>
+		<Row Tag="LOC_MOMENT_XCV_PROJECT2_DONE_FIRST_IN_WORLD_DESCRIPTION">
+			<Text>Give Peace A Chance completed first in world.</Text>
+		</Row>
+		<Row Tag="LOC_MOMENT_XCV_PROJECT2_DONE_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+			<Text>You've completed Give Peace A Chance, a project required for expanded culture victory. No one else has managed this. #2 of 3.</Text>
+		</Row>
+		<Row Tag="LOC_MOMENT_XCV_PROJECT3_DONE_FIRST_IN_WORLD">
+			<Text>Knowledge Is Power completed first</Text>
+		</Row>
+		<Row Tag="LOC_MOMENT_XCV_PROJECT3_DONE_FIRST_IN_WORLD_DESCRIPTION">
+			<Text>Knowledge Is Power completed first in world.</Text>
+		</Row>
+		<Row Tag="LOC_MOMENT_XCV_PROJECT3_DONE_FIRST_IN_WORLD_INSTANCE_DESCRIPTION">
+			<Text>You've completed Knowledge Is Power, a project required for expanded culture victory. No one else has managed this. #3 of 3.</Text>
+		</Row>
+		<!--Row Tag="LOC_HUD_POPUP_PROJECT_CREATED_TITLE_XCV">
+			<Text>A Victory Project Has Been Completed!</Text>
+		</Row-->
+		<Row Tag="LOC_NOTIFICATION_OTHER_CULTURE_VICTORY_SOON_SUMMARY_XCV">
+			<Text>{1_CivName} only needs their culture to become dominant over one more player to achieve total cultural dominance.  Once they have accomplished this and the three cultural projects they will achieve a Culture Victory.</Text>
+		</Row>
+		<Row Tag="LOC_NOTIFICATION_PROJECT_CREATED_BY_OTHER_XCV_TITLE">
+			<Text>Other civilization completes project.</Text>
+		</Row>
+		<Row Tag="LOC_NOTIFICATION_PROJECT_CREATED_BY_UNKNOWN_XCV_TITLE">
+			<Text>Unmet civilization completes project.</Text>
+		</Row>
+		<Row Tag="LOC_NOTIFICATION_PROJECT_CREATED_BY_OTHER_XCV">
+			<Text>{1_CivName} completes a culture project and moves closer to victory.</Text>
+		</Row>
+		<Row Tag="LOC_NOTIFICATION_PROJECT_CREATED_BY_UNKNOWN_XCV">
+			<Text>An unmet civilization completes a culture project and moves closer to victory.</Text>
+		</Row>
+		<Row Tag="LOC_DUMMY_BUILDING_XCV_PROD_MULT_PLUS1">
+			<Text>Dummy+1</Text>
+		</Row>
+		<Row Tag="LOC_DUMMY_BUILDING_XCV_PROD_MULT_PLUS10">
+			<Text>Dummy+10</Text>
+		</Row>
+		<Row Tag="LOC_DUMMY_BUILDING_XCV_PROD_MULT_PLUS100">
+			<Text>Dummy+100</Text>
+		</Row>
+		<Row Tag="LOC_DUMMY_BUILDING_XCV_PROD_MULT_MINUS1">
+			<Text>Dummy-1</Text>
+		</Row>
+		<Row Tag="LOC_DUMMY_BUILDING_XCV_PROD_MULT_MINUS10">
+			<Text>Dummy-10</Text>
+		</Row>
+	</EnglishText>
+</GameData>

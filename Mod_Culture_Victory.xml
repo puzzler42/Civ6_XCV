@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<!-- Culture Victory Projects In Order: Fight For Form, Give Peace A Chance, Knowledge Is Power -->
+	<Types>
+		<Row Type="PROJECT_XCV_CULTURE_VICTORY_PROJECT1" Kind="KIND_PROJECT"/> 
+		<Row Type="PROJECT_XCV_CULTURE_VICTORY_PROJECT2" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_XCV_CULTURE_VICTORY_PROJECT3" Kind="KIND_PROJECT"/>
+		<Row Type="MODIFIER_XCV_MAKE_PROJECT_AVAILABLE" Kind="KIND_MODIFIER"/>
+		<Row Type="DUMMY_BUILDING_XCV_PROD_MULT_PLUS1" Kind="KIND_BUILDING"/>
+		<Row Type="DUMMY_BUILDING_XCV_PROD_MULT_PLUS10" Kind="KIND_BUILDING"/>
+		<Row Type="DUMMY_BUILDING_XCV_PROD_MULT_PLUS100" Kind="KIND_BUILDING"/>
+		<Row Type="DUMMY_BUILDING_XCV_PROD_MULT_MINUS1" Kind="KIND_BUILDING"/>
+		<Row Type="DUMMY_BUILDING_XCV_PROD_MULT_MINUS10" Kind="KIND_BUILDING"/>
+		<Row Type="MOMENT_XCV_PROJECT1_DONE" Kind="KIND_MOMENT"/>
+		<Row Type="MOMENT_XCV_PROJECT1_DONE_FIRST_IN_WORLD" Kind="KIND_MOMENT"/>
+		<Row Type="MOMENT_XCV_PROJECT2_DONE" Kind="KIND_MOMENT"/>
+		<Row Type="MOMENT_XCV_PROJECT2_DONE_FIRST_IN_WORLD" Kind="KIND_MOMENT"/>
+		<Row Type="MOMENT_XCV_PROJECT3_DONE" Kind="KIND_MOMENT"/>
+		<Row Type="MOMENT_XCV_PROJECT3_DONE_FIRST_IN_WORLD" Kind="KIND_MOMENT"/>
+		<Row Type="NOTIFICATION_PROJECT_FINISHED_XCV" Kind="KIND_NOTIFICATION"/>
+		<Row Type="NOTIFICATION_PROJECT_CREATED_BY_OTHER_XCV" Kind="KIND_NOTIFICATION"/>
+		<Row Type="NOTIFICATION_PROJECT_CREATED_BY_UNKNOWN_XCV" Kind="KIND_NOTIFICATION"/>
+	</Types>
+	<Projects>
+		<Row ProjectType="PROJECT_XCV_CULTURE_VICTORY_PROJECT1" Name="LOC_XCV_CULTURE_VICTORY_PROJECT1_NAME" ShortName="LOC_XCV_CULTURE_VICTORY_PROJECT1_SHORTNAME" Description="LOC_XCV_CULTURE_VICTORY_PROJECT1_DESC" PrereqDistrict="DISTRICT_THEATER" PrereqCivic="CIVIC_CULTURAL_HEGEMONY" Cost="2000" AdvisorType="ADVISOR_GENERIC" MaxPlayerInstances="1"/>
+		<Row ProjectType="PROJECT_XCV_CULTURE_VICTORY_PROJECT2" Name="LOC_XCV_CULTURE_VICTORY_PROJECT2_NAME" ShortName="LOC_XCV_CULTURE_VICTORY_PROJECT2_SHORTNAME" Description="LOC_XCV_CULTURE_VICTORY_PROJECT2_DESC" PrereqDistrict="DISTRICT_THEATER" PrereqCivic="CIVIC_SMART_POWER_DOCTRINE" Cost="2000" AdvisorType="ADVISOR_GENERIC" MaxPlayerInstances="1"/>
+		<Row ProjectType="PROJECT_XCV_CULTURE_VICTORY_PROJECT3" Name="LOC_XCV_CULTURE_VICTORY_PROJECT3_NAME" ShortName="LOC_XCV_CULTURE_VICTORY_PROJECT3_SHORTNAME" Description="LOC_XCV_CULTURE_VICTORY_PROJECT3_DESC" PrereqDistrict="DISTRICT_THEATER" PrereqCivic="CIVIC_INFORMATION_WARFARE" Cost="2000" AdvisorType="ADVISOR_GENERIC" MaxPlayerInstances="1"/>
+	</Projects>
+	<Projects_XP2>
+		<Row ProjectType="PROJECT_XCV_CULTURE_VICTORY_PROJECT1" UnlocksFromEffect="true"/>
+		<Row ProjectType="PROJECT_XCV_CULTURE_VICTORY_PROJECT2" UnlocksFromEffect="true"/>
+		<Row ProjectType="PROJECT_XCV_CULTURE_VICTORY_PROJECT3" UnlocksFromEffect="true"/>
+	</Projects_XP2>
+	<!-- The below Historical Moments do not yet work.  AFAIK custom moments are difficult to implement at best right now.  Maybe some day...-->
+	<Moments>
+		<Row MomentType="MOMENT_XCV_PROJECT1_DONE" Name="LOC_MOMENT_XCV_PROJECT1_DONE" Description="LOC_MOMENT_XCV_PROJECT1_DONE_DESCRIPTION" InstanceDescription="LOC_MOMENT_XCV_PROJECT1_DONE_INSTANCE_DESCRIPTION" InterestLevel="3" BackgroundTexture="Moment_XCV_FFF.dds" EraScore="2" ObjectType="PROJECT_XCV_CULTURE_VICTORY_PROJECT1" Category="1"/>
+		<Row MomentType="MOMENT_XCV_PROJECT1_DONE_FIRST_IN_WORLD" Name="LOC_MOMENT_XCV_PROJECT1_DONE_FIRST_IN_WORLD" Description="LOC_MOMENT_XCV_PROJECT1_DONE_FIRST_IN_WORLD_DESCRIPTION" InstanceDescription="LOC_MOMENT_XCV_PROJECT1_DONE_FIRST_IN_WORLD_INSTANCE_DESCRIPTION" InterestLevel="3" BackgroundTexture="Moment_XCV_FFF.dds" EraScore="4" ObjectType="PROJECT_XCV_CULTURE_VICTORY_PROJECT1" Category="1"/>
+		<Row MomentType="MOMENT_XCV_PROJECT2_DONE" Name="LOC_MOMENT_XCV_PROJECT2_DONE" Description="LOC_MOMENT_XCV_PROJECT2_DONE_DESCRIPTION" InstanceDescription="LOC_MOMENT_XCV_PROJECT2_DONE_INSTANCE_DESCRIPTION" InterestLevel="3" BackgroundTexture="Moment_XCV_GPAC.dds" EraScore="2" ObjectType="PROJECT_XCV_CULTURE_VICTORY_PROJECT2" Category="1"/>
+		<Row MomentType="MOMENT_XCV_PROJECT2_DONE_FIRST_IN_WORLD" Name="LOC_MOMENT_XCV_PROJECT2_DONE_FIRST_IN_WORLD" Description="LOC_MOMENT_XCV_PROJECT2_DONE_FIRST_IN_WORLD_DESCRIPTION" InstanceDescription="LOC_MOMENT_XCV_PROJECT2_DONE_FIRST_IN_WORLD_INSTANCE_DESCRIPTION" InterestLevel="3" BackgroundTexture="Moment_XCV_GPAC.dds" EraScore="4" ObjectType="PROJECT_XCV_CULTURE_VICTORY_PROJECT2" Category="1"/>
+		<Row MomentType="MOMENT_XCV_PROJECT3_DONE" Name="LOC_MOMENT_XCV_PROJECT3_DONE" Description="LOC_MOMENT_XCV_PROJECT3_DONE_DESCRIPTION" InstanceDescription="LOC_MOMENT_XCV_PROJECT3_DONE_INSTANCE_DESCRIPTION" InterestLevel="3" BackgroundTexture="Moment_XCV_KIP.dds" EraScore="2" ObjectType="PROJECT_XCV_CULTURE_VICTORY_PROJECT3" Category="1"/>
+		<Row MomentType="MOMENT_XCV_PROJECT3_DONE_FIRST_IN_WORLD" Name="LOC_MOMENT_XCV_PROJECT3_DONE_FIRST_IN_WORLD" Description="LOC_MOMENT_XCV_PROJECT3_DONE_FIRST_IN_WORLD_DESCRIPTION" InstanceDescription="LOC_MOMENT_XCV_PROJECT3_DONE_FIRST_IN_WORLD_INSTANCE_DESCRIPTION" InterestLevel="3" BackgroundTexture="Moment_XCV_KIP.dds" EraScore="4" ObjectType="PROJECT_XCV_CULTURE_VICTORY_PROJECT3" Category="1"/>
+	</Moments>
+	<Notifications>
+		<Update>
+			<Where NotificationType="NOTIFICATION_OTHER_CULTURE_VICTORY_SOON"/>
+			<Set>
+				<Summary>LOC_NOTIFICATION_OTHER_CULTURE_VICTORY_SOON_SUMMARY_XCV</Summary>
+			</Set>
+		</Update>
+		<Row NotificationType="NOTIFICATION_PROJECT_CREATED_BY_OTHER_XCV" SeverityType="MID" ExpiresEndOfTurn="True" AutoNotify="False" Message="LOC_NOTIFICATION_PROJECT_CREATED_BY_OTHER_XCV_TITLE" Summary="LOC_NOTIFICATION_PROJECT_CREATED_BY_OTHER_XCV" Icon="ICON_NOTIFICATION_PROJECT_CREATED_BY_OTHER_XCV"/>
+		<Row NotificationType="NOTIFICATION_PROJECT_CREATED_BY_UNKNOWN_XCV" SeverityType="MID" ExpiresEndOfTurn="True" AutoNotify="False" Message="LOC_NOTIFICATION_PROJECT_CREATED_BY_UNKNOWN_XCV_TITLE" Summary="LOC_NOTIFICATION_PROJECT_CREATED_BY_UNKNOWN_XCV" Icon="ICON_NOTIFICATION_PROJECT_CREATED_BY_UNKNOWN_XCV"/>
+		<Row NotificationType="NOTIFICATION_PROJECT_FINISHED_XCV" SeverityType="MID" ExpiresEndOfTurn="True" AutoNotify="False" Message="LOC_XCV_CULTURE_VICTORY_PROJECT_POPUP_TITLE" Summary="LOC_XCV_CULTURE_VICTORY_PROJECT_POPUP" Icon="ICON_NOTIFICATION_PROJECT_FINISHED_XCV"/>
+	</Notifications>
+	<AiListTypes>
+		<Row ListType="XCVCultureVictoryProjects"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="XCVCultureVictoryProjects" System="Projects"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="XCVCultureVictoryProjects" Item="PROJECT_XCV_CULTURE_VICTORY_PROJECT1" Favored="true"/>
+		<Row ListType="XCVCultureVictoryProjects" Item="PROJECT_XCV_CULTURE_VICTORY_PROJECT2" Favored="true"/>
+		<Row ListType="XCVCultureVictoryProjects" Item="PROJECT_XCV_CULTURE_VICTORY_PROJECT3" Favored="true"/>
+	</AiFavoredItems>
+	<Strategy_Priorities>
+		<Row StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ListType="XCVCultureVictoryProjects"/>
+	</Strategy_Priorities>
+	<Victories>
+		<Update>
+			<Where VictoryType="VICTORY_CULTURE"/>
+			<Set>
+				<RequirementSetId>XCV_CULTURE_VICTORY_EXPANDED_REQUIREMENTS</RequirementSetId>
+			</Set>
+		</Update>
+	</Victories>
+	<Buildings>
+		<Row BuildingType="DUMMY_BUILDING_XCV_PROD_MULT_PLUS1" Name="LOC_DUMMY_BUILDING_XCV_PROD_MULT_PLUS1" EnabledByReligion="true" Cost="1"/>
+		<Row BuildingType="DUMMY_BUILDING_XCV_PROD_MULT_PLUS10" Name="LOC_DUMMY_BUILDING_XCV_PROD_MULT_PLUS10" EnabledByReligion="true" Cost="1"/>
+		<Row BuildingType="DUMMY_BUILDING_XCV_PROD_MULT_PLUS100" Name="LOC_DUMMY_BUILDING_XCV_PROD_MULT_PLUS100" EnabledByReligion="true" Cost="1"/>
+		<Row BuildingType="DUMMY_BUILDING_XCV_PROD_MULT_MINUS1" Name="LOC_DUMMY_BUILDING_XCV_PROD_MULT_MINUS1" EnabledByReligion="true" Cost="1"/>
+		<Row BuildingType="DUMMY_BUILDING_XCV_PROD_MULT_MINUS10" Name="LOC_DUMMY_BUILDING_XCV_PROD_MULT_MINUS10" EnabledByReligion="true" Cost="1"/>
+	</Buildings>
+	<ProjectCompletionModifiers>
+		<Row>
+			<ProjectType>PROJECT_XCV_CULTURE_VICTORY_PROJECT1</ProjectType>
+			<ModifierId>TRAIT_DOUBLE_WRITER_POINTS</ModifierId>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_XCV_CULTURE_VICTORY_PROJECT1</ProjectType>
+			<ModifierId>TRAIT_DOUBLE_ARTIST_POINTS</ModifierId>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_XCV_CULTURE_VICTORY_PROJECT1</ProjectType>
+			<ModifierId>TRAIT_DOUBLE_MUSICIAN_POINTS</ModifierId>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_XCV_CULTURE_VICTORY_PROJECT1</ProjectType>
+			<ModifierId>XCV_DUMMY_PROJECT1_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_XCV_CULTURE_VICTORY_PROJECT2</ProjectType>
+			<ModifierId>XCV_DUMMY_PROJECT2_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_XCV_CULTURE_VICTORY_PROJECT2</ProjectType>
+			<ModifierId>XCV_DUMMY_PROJECT2_BONUS2</ModifierId>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_XCV_CULTURE_VICTORY_PROJECT2</ProjectType>
+			<ModifierId>XCV_DUMMY_PROJECT2_BONUS3</ModifierId>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_XCV_CULTURE_VICTORY_PROJECT3</ProjectType>
+			<ModifierId>XCV_DUMMY_PROJECT3_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_XCV_CULTURE_VICTORY_PROJECT3</ProjectType>
+			<ModifierId>XCV_DUMMY_PROJECT3_BONUS2</ModifierId>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_XCV_CULTURE_VICTORY_PROJECT3</ProjectType>
+			<ModifierId>GREATPERSON_ARTIFACT_TOURISM_MODIFIER</ModifierId>
+		</Row>
+	</ProjectCompletionModifiers>
+	<!-- Culture Victory Requirements -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>XCV_CULTURE_VICTORY_EXPANDED_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>XCV_CULTURE_VICTORY_EXPANDED_PER_TEAM_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>XCV_PROJECT1_AVAILABLE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>XCV_PROJECT2_AVAILABLE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>XCV_PROJECT3_AVAILABLE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>XCV_CULTURE_VICTORY_EXPANDED_REQUIREMENTS</RequirementSetId>
+			<RequirementId>XCV_CULTURE_VICTORY_EXPANDED_PER_TEAM_REQUIREMENTS_MET</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>XCV_CULTURE_VICTORY_EXPANDED_PER_TEAM_REQUIREMENTS</RequirementSetId>
+			<RequirementId>CULTURE_VICTORY_PER_MEMBER_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>XCV_CULTURE_VICTORY_EXPANDED_PER_TEAM_REQUIREMENTS</RequirementSetId>
+			<RequirementId>XCV_CULTURE_VICTORY_PROJECT1</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>XCV_CULTURE_VICTORY_EXPANDED_PER_TEAM_REQUIREMENTS</RequirementSetId>
+			<RequirementId>XCV_CULTURE_VICTORY_PROJECT2</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>XCV_CULTURE_VICTORY_EXPANDED_PER_TEAM_REQUIREMENTS</RequirementSetId>
+			<RequirementId>XCV_CULTURE_VICTORY_PROJECT3</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>XCV_CULTURE_VICTORY_EXPANDED_PER_TEAM_REQUIREMENTS</RequirementSetId>
+			<RequirementId>CULTURE_VICTORY_REQUIREMENT</RequirementId>
+		</Row>
+		<!-- unlock reqs-->
+		<Row>
+			<RequirementSetId>XCV_PROJECT1_AVAILABLE</RequirementSetId>
+			<RequirementId>XCV_REQUIRE_PLAYER_HAS_CULTURAL_HEGEMONY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>XCV_PROJECT2_AVAILABLE</RequirementSetId>
+			<RequirementId>XCV_REQUIRE_PLAYER_HAS_SMART_POWER_DOCTRINE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>XCV_PROJECT3_AVAILABLE</RequirementSetId>
+			<RequirementId>XCV_REQUIRE_PLAYER_HAS_INFORMATION_WARFARE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>XCV_CULTURE_VICTORY_EXPANDED_PER_TEAM_REQUIREMENTS_MET</RequirementId>
+			<RequirementType>REQUIREMENT_COLLECTION_ANY_MET</RequirementType>
+		</Row>
+
+		<Row>
+			<RequirementId>XCV_CULTURE_VICTORY_PROJECT1</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_COMPLETED_PROJECT</RequirementType>
+			<Persistent>true</Persistent>
+		</Row>
+		<Row>
+			<RequirementId>XCV_CULTURE_VICTORY_PROJECT2</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_COMPLETED_PROJECT</RequirementType>
+			<Persistent>true</Persistent>
+		</Row>
+		<Row>
+			<RequirementId>XCV_CULTURE_VICTORY_PROJECT3</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_COMPLETED_PROJECT</RequirementType>
+			<Persistent>true</Persistent>
+		</Row>
+		
+		<Row RequirementId="XCV_REQUIRE_PLAYER_HAS_CULTURAL_HEGEMONY" RequirementType="REQUIREMENT_PLAYER_HAS_CIVIC"/>
+		<Row RequirementId="XCV_REQUIRE_PLAYER_HAS_SMART_POWER_DOCTRINE" RequirementType="REQUIREMENT_PLAYER_HAS_CIVIC"/>
+		<Row RequirementId="XCV_REQUIRE_PLAYER_HAS_INFORMATION_WARFARE" RequirementType="REQUIREMENT_PLAYER_HAS_CIVIC"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>XCV_CULTURE_VICTORY_EXPANDED_PER_TEAM_REQUIREMENTS_MET</RequirementId>
+			<Name>CollectionType</Name>
+			<Value>COLLECTION_TEAM_PLAYERS</Value>
+		</Row>
+		<Row>
+			<RequirementId>XCV_CULTURE_VICTORY_EXPANDED_PER_TEAM_REQUIREMENTS_MET</RequirementId>
+			<Name>RequirementSetId</Name>
+			<Value>XCV_CULTURE_VICTORY_EXPANDED_PER_TEAM_REQUIREMENTS</Value>
+		</Row>
+		<Row>
+			<RequirementId>XCV_CULTURE_VICTORY_PROJECT1</RequirementId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_XCV_CULTURE_VICTORY_PROJECT1</Value>
+		</Row>
+		<Row>
+			<RequirementId>XCV_CULTURE_VICTORY_PROJECT2</RequirementId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_XCV_CULTURE_VICTORY_PROJECT2</Value>
+		</Row>
+		<Row>
+			<RequirementId>XCV_CULTURE_VICTORY_PROJECT3</RequirementId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_XCV_CULTURE_VICTORY_PROJECT3</Value>
+		</Row>
+
+		<Row RequirementId="XCV_REQUIRE_PLAYER_HAS_CULTURAL_HEGEMONY" Name="CivicType" Value="CIVIC_CULTURAL_HEGEMONY"/>
+		<Row RequirementId="XCV_REQUIRE_PLAYER_HAS_SMART_POWER_DOCTRINE" Name="CivicType" Value="CIVIC_SMART_POWER_DOCTRINE"/>
+		<Row RequirementId="XCV_REQUIRE_PLAYER_HAS_INFORMATION_WARFARE" Name="CivicType" Value="CIVIC_INFORMATION_WARFARE"/>
+	</RequirementArguments>
+	<Modifiers>
+		<Row ModifierId="UNLOCK_XCV_PROJECT1" ModifierType="MODIFIER_XCV_MAKE_PROJECT_AVAILABLE" SubjectRequirementSetId="XCV_PROJECT1_AVAILABLE"/>
+		<Row ModifierId="UNLOCK_XCV_PROJECT2" ModifierType="MODIFIER_XCV_MAKE_PROJECT_AVAILABLE" SubjectRequirementSetId="XCV_PROJECT2_AVAILABLE"/>
+		<Row ModifierId="UNLOCK_XCV_PROJECT3" ModifierType="MODIFIER_XCV_MAKE_PROJECT_AVAILABLE" SubjectRequirementSetId="XCV_PROJECT3_AVAILABLE"/>
+		
+		<!-- Culture Victory Projects In Order: Fight For Form, Give Peace A Chance, Knowledge Is Power -->
+			<Row ModifierId="XCV_DUMMY_PROJECT1_BONUS" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_APPEAL"/>
+			<Row ModifierId="XCV_DUMMY_PROJECT2_BONUS" ModifierType="MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER"/>
+			<Row ModifierId="XCV_DUMMY_PROJECT2_BONUS2" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST"/>
+			<Row ModifierId="XCV_DUMMY_PROJECT2_BONUS3" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT"/>
+			<Row ModifierId="XCV_DUMMY_PROJECT3_BONUS" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_FREE_POWER"/>
+			<Row ModifierId="XCV_DUMMY_PROJECT3_BONUS2" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST"/>
+		<!-- Dummy Buildings -->
+		<!-- PROJECT1 -->
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS1_PROJECT1</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_PROJECT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS10_PROJECT1</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_PROJECT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS100_PROJECT1</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_PROJECT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_MINUS1_PROJECT1</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_PROJECT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_MINUS10_PROJECT1</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_PROJECT_PRODUCTION</ModifierType>
+		</Row>
+		<!-- PROJECT2 -->
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS1_PROJECT2</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_PROJECT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS10_PROJECT2</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_PROJECT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS100_PROJECT2</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_PROJECT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_MINUS1_PROJECT2</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_PROJECT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_MINUS10_PROJECT2</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_PROJECT_PRODUCTION</ModifierType>
+		</Row>
+		<!-- PROJECT3 -->
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS1_PROJECT3</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_PROJECT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS10_PROJECT3</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_PROJECT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS100_PROJECT3</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_PROJECT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_MINUS1_PROJECT3</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_PROJECT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_MINUS10_PROJECT3</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_PROJECT_PRODUCTION</ModifierType>
+		</Row>
+	</Modifiers>
+	<DynamicModifiers>
+		<Row ModifierType="MODIFIER_XCV_MAKE_PROJECT_AVAILABLE" CollectionType="COLLECTION_OWNER" EffectType="EFFECT_ADD_PLAYER_PROJECT_AVAILABILITY"/>
+	</DynamicModifiers>
+	<ModifierArguments>
+		<Row ModifierId="UNLOCK_XCV_PROJECT1" Name="ProjectType" Value="PROJECT_XCV_CULTURE_VICTORY_PROJECT1"/>
+		<Row ModifierId="UNLOCK_XCV_PROJECT2" Name="ProjectType" Value="PROJECT_XCV_CULTURE_VICTORY_PROJECT2"/>
+		<Row ModifierId="UNLOCK_XCV_PROJECT3" Name="ProjectType" Value="PROJECT_XCV_CULTURE_VICTORY_PROJECT3"/>
+		
+		<!-- Culture Victory Projects In Order: Fight For Form, Give Peace A Chance, Knowledge Is Power -->
+		<Row>
+			<ModifierId>XCV_DUMMY_PROJECT1_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_DUMMY_PROJECT2_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_ZOC</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_DUMMY_PROJECT2_BONUS2</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_ROCK_BAND</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_DUMMY_PROJECT2_BONUS2</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_DUMMY_PROJECT2_BONUS3</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_DUMMY_PROJECT3_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_DUMMY_PROJECT3_BONUS</ModifierId>
+			<Name>SourceType</Name>
+			<Value>FREE_POWER_SOURCE_MISC</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_DUMMY_PROJECT3_BONUS2</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_ARCHAEOLOGIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_DUMMY_PROJECT3_BONUS2</ModifierId>
+			<Name>Amount</Name>
+			<Value>75</Value>
+		</Row>
+		
+		<!-- Dummy Buildings -->
+		<!-- PROJECT1 -->
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS1_PROJECT1</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS10_PROJECT1</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS100_PROJECT1</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_MINUS1_PROJECT1</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_MINUS10_PROJECT1</ModifierId>
+			<Name>Amount</Name>
+			<Value>-10</Value>
+		</Row>
+				<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS1_PROJECT1</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_XCV_CULTURE_VICTORY_PROJECT1</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS10_PROJECT1</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_XCV_CULTURE_VICTORY_PROJECT1</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS100_PROJECT1</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_XCV_CULTURE_VICTORY_PROJECT1</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_MINUS1_PROJECT1</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_XCV_CULTURE_VICTORY_PROJECT1</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_MINUS10_PROJECT1</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_XCV_CULTURE_VICTORY_PROJECT1</Value>
+		</Row>
+		<!-- PROJECT2 -->
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS1_PROJECT2</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS10_PROJECT2</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS100_PROJECT2</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_MINUS1_PROJECT2</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_MINUS10_PROJECT2</ModifierId>
+			<Name>Amount</Name>
+			<Value>-10</Value>
+		</Row>
+				<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS1_PROJECT2</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_XCV_CULTURE_VICTORY_PROJECT2</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS10_PROJECT2</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_XCV_CULTURE_VICTORY_PROJECT2</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS100_PROJECT2</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_XCV_CULTURE_VICTORY_PROJECT2</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_MINUS1_PROJECT2</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_XCV_CULTURE_VICTORY_PROJECT2</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_MINUS10_PROJECT2</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_XCV_CULTURE_VICTORY_PROJECT2</Value>
+		</Row>
+		<!-- PROJECT3 -->
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS1_PROJECT3</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS10_PROJECT3</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS100_PROJECT3</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_MINUS1_PROJECT3</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_MINUS10_PROJECT3</ModifierId>
+			<Name>Amount</Name>
+			<Value>-10</Value>
+		</Row>
+				<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS1_PROJECT3</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_XCV_CULTURE_VICTORY_PROJECT3</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS10_PROJECT3</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_XCV_CULTURE_VICTORY_PROJECT3</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_PLUS100_PROJECT3</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_XCV_CULTURE_VICTORY_PROJECT3</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_MINUS1_PROJECT3</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_XCV_CULTURE_VICTORY_PROJECT3</Value>
+		</Row>
+		<Row>
+			<ModifierId>XCV_PROJECT_PROD_MULT_MINUS10_PROJECT3</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_XCV_CULTURE_VICTORY_PROJECT3</Value>
+		</Row>
+	</ModifierArguments>
+	<BuildingModifiers>
+		<Row BuildingType="DUMMY_BUILDING_XCV_PROD_MULT_PLUS1" ModifierId="XCV_PROJECT_PROD_MULT_PLUS1_PROJECT1"/>
+		<Row BuildingType="DUMMY_BUILDING_XCV_PROD_MULT_PLUS10" ModifierId="XCV_PROJECT_PROD_MULT_PLUS10_PROJECT1"/>
+		<Row BuildingType="DUMMY_BUILDING_XCV_PROD_MULT_PLUS100" ModifierId="XCV_PROJECT_PROD_MULT_PLUS100_PROJECT1"/>
+		<Row BuildingType="DUMMY_BUILDING_XCV_PROD_MULT_MINUS1" ModifierId="XCV_PROJECT_PROD_MULT_MINUS1_PROJECT1"/>
+		<Row BuildingType="DUMMY_BUILDING_XCV_PROD_MULT_MINUS10" ModifierId="XCV_PROJECT_PROD_MULT_MINUS10_PROJECT1"/>
+		<Row BuildingType="DUMMY_BUILDING_XCV_PROD_MULT_PLUS1" ModifierId="XCV_PROJECT_PROD_MULT_PLUS1_PROJECT2"/>
+		<Row BuildingType="DUMMY_BUILDING_XCV_PROD_MULT_PLUS10" ModifierId="XCV_PROJECT_PROD_MULT_PLUS10_PROJECT2"/>
+		<Row BuildingType="DUMMY_BUILDING_XCV_PROD_MULT_PLUS100" ModifierId="XCV_PROJECT_PROD_MULT_PLUS100_PROJECT2"/>
+		<Row BuildingType="DUMMY_BUILDING_XCV_PROD_MULT_MINUS1" ModifierId="XCV_PROJECT_PROD_MULT_MINUS1_PROJECT2"/>
+		<Row BuildingType="DUMMY_BUILDING_XCV_PROD_MULT_MINUS10" ModifierId="XCV_PROJECT_PROD_MULT_MINUS10_PROJECT2"/>
+		<Row BuildingType="DUMMY_BUILDING_XCV_PROD_MULT_PLUS1" ModifierId="XCV_PROJECT_PROD_MULT_PLUS1_PROJECT3"/>
+		<Row BuildingType="DUMMY_BUILDING_XCV_PROD_MULT_PLUS10" ModifierId="XCV_PROJECT_PROD_MULT_PLUS10_PROJECT3"/>
+		<Row BuildingType="DUMMY_BUILDING_XCV_PROD_MULT_PLUS100" ModifierId="XCV_PROJECT_PROD_MULT_PLUS100_PROJECT3"/>
+		<Row BuildingType="DUMMY_BUILDING_XCV_PROD_MULT_MINUS1" ModifierId="XCV_PROJECT_PROD_MULT_MINUS1_PROJECT3"/>
+		<Row BuildingType="DUMMY_BUILDING_XCV_PROD_MULT_MINUS10" ModifierId="XCV_PROJECT_PROD_MULT_MINUS10_PROJECT3"/>
+	</BuildingModifiers>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="UNLOCK_XCV_PROJECT1" />
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="UNLOCK_XCV_PROJECT2" />
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="UNLOCK_XCV_PROJECT3" />
+	</TraitModifiers>
+</GameInfo>
