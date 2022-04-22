@@ -19,7 +19,7 @@ Menu Options:
   
 In Game changes:
 
-  -Added 3 Projects to the game and to the requirements for cultural victory:
+  -Added 3 Projects to the game and to the requirements for cultural victory (in addition to the tourist requirement):
   
     ~Fight For Form: Upon completion grants the following effects: +3 Appeal in all cities; Double points towards Great Writers, Great Artists, and Great Musicians.  Unlocked by the Cultural Hegemony civic in the future era.
     
@@ -55,7 +55,7 @@ This mod is theoretically compatible with any other mod since it only either add
 
   -All theater disctricts are replaced by another type of district
   
-    ~I still have to run some tests as the Greeks to make sure their Acropolis is able to do these projects.  If there are issues, then it may or may not be possible to proof the mod against other mods that replace the theater district.  If there are no issues, this may still be a problem with other mods depending on how they code replacements of the theater district.
+    ~I have run some tests as the Greeks to make sure their Acropolis is able to do these projects.  There are no issues, but this may still be a problem with other mods depending on how they code replacements of the theater district.
     
   -Another mod changes how culture victories work
   
@@ -81,6 +81,10 @@ This mod is theoretically compatible with any other mod since it only either add
   -MAYBE find a way to do the production modifiers without dummy buildings.  It would depend on whether the fix is worse than the issue.
   
   -Fix production required indicator for projects.  As a result of the dummy buildings solution, the adjusted production cost and/or production per turn are not reflected in the ui except by the fact that the required number of turns changes.  For example: in a marathon game at present version with a modifier at 10%, the production says 6000 needed.  For a city with 6 production per turn one would expect this to take 1000 turns, but with the 10% modifier it takes 100 (as expected since the modifier specifies the percentage of the default production that is required).  So in the UI you end u with a city that at 6 production per turn displayed and 0/6000 production done, 100 turns are needed.  The effect is right but the math done from the UI is off since it doesn't reflect the modifiers anywhere but in the turns required.
+  
+  -Update the culture victory tracker description under the World Rankings panel.  Apparently the text for this gets pulled from the database early on when the game is loaded.  Since my mod is overwriting victory conditions, it loads as late as it can in the process.  As a result, it loads AFTER this text has already been read so if I try to update it in the database it is too late.  I really don't want to rewrite the lua code for that panel just for one description and I haven't yet had any ideas on workarounds.
+  
+  -Update the culture victory tracker Icon size under the World Rankings panel.  So, if you manage to get the tourist requirement from the old culture victory before the projects are completed and your tourism keeps growing, so does the tourism icon in the tracker.  At 100% the filled-in icon covers the greyed-out one, but after that it starts gorwing vertically and looks really weird.  I have not yet figured out how to fix this without rewriting the panel.
     
     
 ---------------------------------------------------------
