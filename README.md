@@ -27,7 +27,7 @@ In Game changes:
     
     ~"Knowledge Is Power": Upon completion grants the following effects: +5 Power in all cities; Archaeologists are half price to purchase; Triple tourism from artifacts.  Unlocked by the Information Warfare civic in the future era
     
-    ~All of these require a theater disctrict.
+    ~All of these require a theater district.
     
     ~Only one instance of each project is allowed per player.
     
@@ -53,13 +53,13 @@ In Game changes:
 
 This mod is theoretically compatible with any other mod since it only either adds things or replaces text.  It IS designed to use the table structure implemented after both major expansions.  As of the initial commit/upload I have all available official DLC/expansions.  Situations where it may not work:
 
-  -All theater disctricts are replaced by another type of district
+  -All theater districts are replaced by another type of district
   
     ~I have run some tests as the Greeks to make sure their Acropolis is able to do these projects.  There are no issues, but this may still be a problem with other mods depending on how they code replacements of the theater district.
     
   -Another mod changes how culture victories work
   
-    ~Last I checked there were none of these, and if there were why would you try to stack them?  In any case, depending on which mod was initiated first and how the other mod works it MIGHT stck the requirements together or one might overwrite the other.
+    ~Last I checked there were none of these, and if there were why would you try to stack them?  In any case, depending on which mod was initiated first and how the other mod works it MIGHT stick the requirements together or one might overwrite the other.
     
   -Something changes a table name or structure that is in use
   
@@ -84,7 +84,7 @@ This mod is theoretically compatible with any other mod since it only either add
   
   -Update the culture victory tracker description under the World Rankings panel.  Apparently the text for this gets pulled from the database early on when the game is loaded.  Since my mod is overwriting victory conditions, it loads as late as it can in the process.  As a result, it loads AFTER this text has already been read so if I try to update it in the database it is too late.  I really don't want to rewrite the lua code for that panel just for one description and I haven't yet had any ideas on workarounds.
   
-  -Update the culture victory tracker Icon size under the World Rankings panel.  So, if you manage to get the tourist requirement from the old culture victory before the projects are completed and your tourism keeps growing, so does the tourism icon in the tracker.  At 100% the filled-in icon covers the greyed-out one, but after that it starts gorwing vertically and looks really weird.  I have not yet figured out how to fix this without rewriting the panel.
+  -Update the culture victory tracker Icon size under the World Rankings panel.  So, if you manage to get the tourist requirement from the old culture victory before the projects are completed and your tourism keeps growing, so does the tourism icon in the tracker.  At 100% the filled-in icon covers the greyed-out one, but after that it starts growing vertically and looks really weird.  I have not yet figured out how to fix this without rewriting the panel.
     
     
 ---------------------------------------------------------
